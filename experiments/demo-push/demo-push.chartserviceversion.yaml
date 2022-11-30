@@ -1,0 +1,29 @@
+apiVersion: litmuschaos.io/v1alpha1
+kind: ChartServiceVersion
+metadata:
+  annotations:
+    categories: ""
+    chartDescription: ""
+    createdAt: ""
+    repository: ""
+    support: ""
+    vendor: ""
+  name: demo-push
+packageInfo:
+  experiments: null
+  packageName: ""
+spec:
+  categoryDescription: ""
+  displayName: demo-push-chaos
+  experiments: null
+  faults:
+  - description: ""
+    name: pod-delete-3ru
+  - description: ""
+    name: pod-cpu-hog-gy3
+  - description: ""
+    name: pod-network-corruption-2rd
+  keywords: []
+  provider:
+    name: ""
+  scenarios: null
