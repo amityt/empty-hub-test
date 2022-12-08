@@ -1,0 +1,28 @@
+apiVersion: litmuschaos.io/v1alpha1
+kind: ChartServiceVersion
+metadata:
+  annotations:
+    categories: ""
+    chartDescription: ""
+    createdAt: ""
+    repository: ""
+    support: ""
+    vendor: ""
+  name: testing-add-to-hub
+packageInfo:
+  experiments: null
+  packageName: ""
+spec:
+  categoryDescription: test description
+  displayName: testing-add-to-hub
+  experiments: null
+  faults:
+  - description: ""
+    displayName: ""
+    name: pod-delete-6b0
+  keywords:
+  - test
+  - tag
+  provider:
+    name: ""
+  scenarios: null
